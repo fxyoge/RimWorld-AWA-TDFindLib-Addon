@@ -1,0 +1,10 @@
+# Build output
+1.6/Assemblies/*.dll
+1.6/Assemblies/*.pdb
+
+# NuGet
+Source/obj/
+Source/bin/
+
+# User-specific build overrides (e.g. custom SteamWorkshopPath)
+Source/Directory.Build.props.user

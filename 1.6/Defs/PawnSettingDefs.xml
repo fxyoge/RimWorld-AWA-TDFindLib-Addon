@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Def Class="Lomzie.AutomaticWorkAssignment.Defs.PawnSettingCategoryDef">
+    <defName>TDFindLib</defName>
+    <label>TD Find Lib</label>
+    <order>100000</order>
+  </Def>
+
+  <Lomzie.AutomaticWorkAssignment.Defs.PawnConditionDef>
+    <defName>AWATDFindLib_TDFindLibPawnCondition</defName>
+    <label>Pawn from query</label>
+    <description>Filter pawns with a TD Find Lib query.</description>
+    <settingClass>AWATDFindLib.TDFindLibPawnCondition</settingClass>
+    <category>TDFindLib</category>
+  </Lomzie.AutomaticWorkAssignment.Defs.PawnConditionDef>
+</Defs>

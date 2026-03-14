@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>AWA Addon: TD Find Lib</name>
+  <author>fxyoge</author>
+  <url>https://github.com/fxyoge/RimWorld-AWA-TDFindLib-Addon</url>
+  <description>
+    An addon for Automatic Work Assignment that integrates TD Find Lib's query system.
+
+    Currently only supports pawn filtering conditions.
+  </description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <packageId>fxyoge.AWATDFindLib</packageId>
+  <modDependencies>
+    <li>
+      <packageId>lomzie.automaticworkassignment</packageId>
+      <displayName>Automatic Work Assignment</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3464549791</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Memegoddess.TDFindLib</packageId>
+      <displayName>TD Find Lib</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3529443295</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>lomzie.automaticworkassignment</li>
+    <li>Memegoddess.TDFindLib</li>
+  </loadAfter>
+</ModMetaData>
